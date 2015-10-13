@@ -1,0 +1,30 @@
+{
+  "name": "mapenv",
+  "version": "1.0.0",
+  "description": "nodejs environment mapping module",
+  "keywords": [
+    "env"
+  ],
+  "author": "Websecurify <contact@websecurify.com> (http://www.websecurify.com)",
+  "homepage": "https://github.com/websecurify/node-mapenv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websecurify/node-mapenv.git",
+    "web": "https://github.com/websecurify/node-mapenv"
+  },
+  "bugs": {
+    "url": "http://github.com/websecurify/node-mapenv/issues/"
+  },
+  "main": "./lib/index.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/websecurify/node-mapenv/LICENSE.md"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-nodeunit": "^0.4.1"
+  }
+}
